@@ -9,16 +9,35 @@ body{
 }
 .row {
 	display: flex;
-	flex-direction: row;
+	flex-wrap: wrap;
 	
 }
 .col{
 	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
 	
 }
 .cell{
+	height: 500px;
 	padding: 10px 20px;
+	flex: 1;
+	
 }
  img {
 	width: 100%;
+	height: 100%;
+	 object-fit: cover;
+}
+
+
+
+@media (min-width: 780px){
+	.col{
+		flex: 1;
+	}
+	.cell{
+		justify-content: space-between;
+	}
 }
