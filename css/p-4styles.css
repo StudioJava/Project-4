@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+body{
+	margin: 0 auto;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	
+}
+.col{
+	
+	
+}
+.cell{
+	padding: 10px 20px;
+}
+ img {
+	width: 100%;
+}
